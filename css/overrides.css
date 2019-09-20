@@ -38,7 +38,7 @@ img.img-rc-logo {
 }
 
 div.form-orange-background {
-    background-image: url('/assets/orange bg.png'); 
+    background-image: url('../assets/orange bg.png'); 
     width: 100%; display:inline-block; 
     margin-top: 20px; 
     padding-bottom: 100px; 
@@ -48,7 +48,7 @@ div.form-orange-background {
 }
 
 div.container-chain {
-    background-image: url('/assets/chain.png'); 
+    background-image: url('../assets/chain.png'); 
     height: 500px; 
     width: 100%; 
     background-repeat: no-repeat;
@@ -102,7 +102,7 @@ div.container-title-bundle {
 }
 
 div.board-schedule-a-demo {
-    background-image:url('/assets/Rounded Rectangle 2.png'); 
+    background-image:url('../assets/Rounded Rectangle 2.png'); 
     width:100%; 
     background-repeat: no-repeat; 
     background-size: 100% 100%;
@@ -144,7 +144,7 @@ div.board-schedule-a-demo {
 }
 
 .thmb-moving-labor {
-    background-image:url('/assets/thumbnail 1.png'); 
+    background-image:url('../assets/thumbnail 1.png'); 
     width:50%; 
     height:200px; 
     background-repeat:no-repeat; 
@@ -156,7 +156,7 @@ div.board-schedule-a-demo {
 }
 
 .form-submit {
-    background-image: url('/assets/CTA button copy.png');
+    background-image: url('../assets/CTA button copy.png');
     width: 40%;
     background-repeat: no-repeat;
     border: none;
@@ -267,7 +267,7 @@ a:hover, a:visited, a:link, a:active {
 .container-copyright-footer {
     width:100%; 
     height:52px; 
-    background-image: url('/assets/footer.png');
+    background-image: url('../assets/footer.png');
 }
 
 
