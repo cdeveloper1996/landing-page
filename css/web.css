@@ -1,3 +1,7 @@
+/**
+* WEB PAGES VARIES FROM 960PX AND UP
+**/
+
 @media only screen and (max-width: 1245px) {
     * {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -36,7 +40,8 @@
     }
 
     .container-copyright-footer {
-        background-size: 1207px;
+        background-size: 100% 73%;
+        background-position-y: 46px;    
     }
 }
 
@@ -116,7 +121,8 @@
     }
 
     .container-copyright-footer {
-        background-size: 1083px;
+        background-size: 100% 73%;
+        background-position-y: 46px;    
     }
 
     .container-thumbnails {
@@ -195,18 +201,9 @@
     p.title-bundle-sub {
         font-size: 1.4em;
     }
-}
 
-@media only screen and (max-width: 890px) {
-    * {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin: 0;
-        padding: 0;
+    .container-copyright-footer {
+        background-size: 100% 73%;
+        background-position-y: 46px;    
     }
-    
-    
-    /** 
-        CONTINUE FROM HERE...
-    **/
 }
-

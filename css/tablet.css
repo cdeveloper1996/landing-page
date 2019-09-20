@@ -1,0 +1,158 @@
+/**
+* TABLET VARIES FROM 768 PIXELS TO 890PIXELS
+**/
+
+@media only screen and (max-width: 890px) {
+    * {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container-copyright-footer {
+        background-size: 100% 73%;
+        background-position-y: 46px;    
+    }
+
+    .column-left {
+        padding-left: 22px;
+    }
+
+    .column-right {
+        width: 36%;
+    }
+
+    .text-display-landing {
+        font-size: 1.3em;
+    }
+
+    .containter-offer-list {
+        font-size: 0.8em;
+    }
+
+    .text-single-app {
+        font-size: 0.8em;
+    }
+
+    .container-logo {
+        position: relative;
+    }
+
+    img.img-rc-logo {
+        position: relative;
+        left: -43px;
+    }
+
+    .container-thumbnails {
+        padding: 80px 100px 80px 100px;
+    }
+
+    .thumbnail-height-max {
+        height: 300px;
+    }
+
+    .thumbnail-column {
+        width: 100%;
+    }
+
+    .content-description {
+        font-size: 1.5em;
+    }
+
+    .is-link {
+        font-size: 1.3em;
+    }
+
+    .container-is-link {
+        bottom: -56px;
+    }
+
+    .container-coffee-break {
+        text-align: center;
+    }
+
+    .text-coffee-break {
+        font-size: 1.3em;
+    }
+
+    .btn-schedule {
+        font-size: 1em;
+        height: 45px;
+    }
+
+    .container-terms-and-conditions {
+        padding: 40px 80px;
+    }
+
+    div.offers-offer1 {
+        bottom: 8px;
+    }
+
+    div.offers-offer2 {
+        bottom: -3px;
+    }
+
+    img.img-rc-logo {
+        left: -75px;
+    }
+    
+}
+
+/* @media only screen and (max-width: 830px) {
+    * {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container-btn-sales {
+        right: 38px;
+    }
+
+    img.img-rc-logo {
+        left: -52px;
+    }
+
+    .column-left {
+        padding-left: 44px;
+    }
+
+    .column-right {
+        width: 32%;
+     
+    }
+
+    .container-thumbnails {
+        padding: 80px 0px 80px 43px;
+    }
+    
+    p.content-description {
+        font-size: 0.8em;
+    }
+
+    .container-is-link {
+        bottom: 34px;
+    }
+
+    .container-terms-and-conditions {
+        padding: 30px 70px;
+    }
+
+    .container-copyright-footer {
+        background-size: 100% 73%;
+        background-position-y: 46px;    
+    }
+
+     {
+          {
+        font-size: 1.2em;
+    }
+
+    div.offers-offer2 {
+        bottom: -13px;
+    }
+
+    div.offers-offer1 {
+        bottom: -2px;
+    }
+} */
