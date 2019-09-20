@@ -144,11 +144,11 @@ div.board-schedule-a-demo {
 }
 
 .thmb-moving-labor {
-    background-image:url('../assets/thumbnail 1.png'); 
-    width:50%; 
-    height:200px; 
-    background-repeat:no-repeat; 
-    margin-left:87px;
+    background-image: url('../assets/thumbnail 1.png');
+    width: 59%;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-left: 82px;
 }
 
 .form-thumbnail-preview {

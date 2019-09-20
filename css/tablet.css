@@ -1,5 +1,5 @@
 /**
-* TABLET VARIES FROM 768 PIXELS TO 890PIXELS
+* 
 **/
 
 @media only screen and (max-width: 890px) {
@@ -98,61 +98,8 @@
     
 }
 
-/* @media only screen and (max-width: 830px) {
-    * {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .container-btn-sales {
-        right: 38px;
-    }
-
-    img.img-rc-logo {
-        left: -52px;
-    }
-
+@media screen and (max-width: 783px) {
     .column-left {
-        padding-left: 44px;
+        padding-left: 15px;
     }
-
-    .column-right {
-        width: 32%;
-     
-    }
-
-    .container-thumbnails {
-        padding: 80px 0px 80px 43px;
-    }
-    
-    p.content-description {
-        font-size: 0.8em;
-    }
-
-    .container-is-link {
-        bottom: 34px;
-    }
-
-    .container-terms-and-conditions {
-        padding: 30px 70px;
-    }
-
-    .container-copyright-footer {
-        background-size: 100% 73%;
-        background-position-y: 46px;    
-    }
-
-     {
-          {
-        font-size: 1.2em;
-    }
-
-    div.offers-offer2 {
-        bottom: -13px;
-    }
-
-    div.offers-offer1 {
-        bottom: -2px;
-    }
-} */
+}
