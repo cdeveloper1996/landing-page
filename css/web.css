@@ -1,5 +1,5 @@
 /**
-* WEB PAGES VARIES FROM 960PX AND UP
+* 
 **/
 
 @media only screen and (max-width: 1245px) {
@@ -207,3 +207,10 @@
         background-position-y: 46px;    
     }
 }
+
+@media only screen and (max-width: 980px) {
+    button.btn-sales {
+        color: #000;
+    }
+}
+
