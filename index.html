@@ -3,8 +3,9 @@
     <head>
         <title></title>
         <link rel="stylesheet" href="css/overrides.css"> 
+        <link rel="stylesheet" href="css/web.css"> 
+        <link rel="stylesheet" href="css/tablet.css">   
         <link rel="stylesheet" href="css/mobile.css"> 
-        <link rel="stylesheet" href="css/web-responsive.css"> 
     </head>  
     <body>
         <div class="get-width" id="getWidth"></div>
@@ -50,7 +51,7 @@
                                             <li>Online Fax</li>
                                         </ul>
                                     </span>
-                                    <p style="margin-top:20px"><b>All on a single app</b></p>
+                                    <p class="text-single-app" style="margin-top:20px"><b>All on a single app</b></p>
                                 </div>
                                 <div class="container-offers">
                                     <div class="offers-offer1">
@@ -209,6 +210,19 @@
         <div class="copyright">
             <div class="container-copyright-footer"></div>
         </div>
-        <script type="text/javascript" src="js/screen-width.js" />
+        <script type="text/javascript">
+            var getWidth;
+            var myDOM = document.getElementById("getWidth");
+            var appendDOM = document.createElement("p");
+
+            function getCurrentWidth() {
+                getWidth = window.innerWidth;
+                appendDOM.innerHTML = getWidth.toString();
+                myDOM.appendChild(appendDOM);
+            }
+
+            window.addEventListener("resize", getCurrentWidth)
+            getCurrentWidth();
+        </script>
     </body>
 </html>
