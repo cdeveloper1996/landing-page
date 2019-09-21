@@ -99,6 +99,7 @@
     }
 
     .card-offer-1 {
+        display: block;
         background-image: url('../assets-mobile/Talk to us about freeing your phone system.png');
         width: 100%;
         height: 200px;
@@ -112,6 +113,7 @@
         height: 200px;
         background-repeat: no-repeat;
         background-size: 86% 100%;
+        display: block;
     }
 
     .card-offer-starbucks-mug {
@@ -122,7 +124,7 @@
         background-size: 55% 100%;
         left: 27px;
         position: relative;
-        left: 86px;
+        left: 90px;
     }
     
     div.offers-offer2 {
@@ -366,319 +368,420 @@
     }
 }
 
-/* @media only screen and (max-width: 360px) {
+@media only screen and (max-width: 660px) {
+    
     * {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         margin: 0;
         padding: 0;
     }
     
-    div.header{
-        padding: 0px 100px;
-        margin-top: 2%;
-        position: relative;
+    body {
+        overflow-x: hidden;
     }
 
-    .header::after {
-        clear: both;
-        display: block;
-    }
-    
-    button.btn-sales {
-        height: 30px;
-        line-height: 10px;
-        padding: 0px 20px;
-        border: none;
-        border-radius: 5px;
-        color: #fff;
-        font-weight: normal;
-        cursor: pointer;
-        width: 209px;
-        margin-left: 67;
-        font-size: 12px
-    }
-    
-    .container-btn-sales {
-        display: inline;
-        width: 100%;
-        position: relative;
-        right: 27px;
-        top: 8px;
-    }
-    
-    .container-logo {
-        display: inline;
-        float: left;
-    }
-    
     img.img-rc-logo {
-        margin-top: 5px;
+        left: 92%;
+        width: 160px;
     }
-    
-    div.form-orange-background {
-        background-image: url('../assets/orange bg.png'); 
-        width: 100%; display:inline-block; 
-        margin-top: 24px; 
-        padding-bottom: 0px; 
-        border-bottom: solid 3px #000;
-        margin-bottom: 5px;
-        position: relative;
-        height: 1511px;
-        background-size: 2198px;
-    }
-    
-    div.container-chain {
-        background-image: url('../assets/chain.png');
-        height: 66px;
-        width: 100%;
-        background-repeat: no-repeat;
-        position: relative;
-        top: 1009px;
-        background-size: 90% 60px;
-        background-position-y: 0px;
-        position: absolute;
-        margin-left: 22px;
-    }
-    
-    div.offers-offer1 {
-        display: inline;
-        position: relative;
-        bottom: 11px;
-    }
-    
-    div.offers-offer2 {
-        display: inline;
-        position: relative;
-        bottom: -7px;
-    }
-    
-    div.form-left-panel {
-        color: #fff;
-        position: absolute;
-        top: 1077px;
-    }
-    
-    .add-line-height-25 {
-        line-height: 25px;
-    }
-    
-    .add-line-height-40 {
-        line-height: 40px;    
-    }
-    
-    p.title-bundle {
-        font-size: 2em;
-        font-style: italic;
-        color: #fff;
-        font-weight: bold;
-        margin-bottom: 7px;
-    }
-    
-    p.title-bundle-sub {
-        font-size: 1.2em;
-        color: #fff;
-        font-weight: bold;
-    }
-    
-    div.container-title-bundle {
-        width: 100%;
-        margin-bottom: 150px;
-    }
-    
-    div.board-schedule-a-demo {
-        background-image:url('../assets/Rounded Rectangle 2.png'); 
-        width:100%; 
-        background-repeat: no-repeat; 
-        background-size: 100% 100%;
-        padding: 40px;
-    }
-    
-    .column {
-        float: left;
-        width: 50%;
-    }
-    
-    .column-left {
-        width: 100%;
-        padding-left: 30px;
-        padding-top: 5px;
-    }
-    
-    .column-right {
-        width: 65%;
-        margin-left: 20px;
-        position: absolute;
-        top: 203px;
-    }
-      
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-    
-    .capitalized {
-        text-transform: uppercase; 
-    }
-    
-    .form-textfield {
-        width: 95%;
-        height: 25px;
-        margin-bottom: 15px;
-        border: none;
-        font-size: 0.8em;
-        padding: 5px 5px 5px 20px;
+
+    .container-btn-sales {
+        right: 61px;
     }
 
     .thmb-moving-labor {
-        background-image:url('../assets/thumbnail 1.png'); 
-        width:100%; 
-        height:200px; 
-        background-repeat:no-repeat; 
-        margin-left:10px;
-    }
-    
-    .form-thumbnail-preview {
-        font-size: 12px;
+        margin-left: 79px;
     }
 
-    .form-submit {
-        background-image: url('../assets/CTA button copy.png');
-        width: 65%;
-        background-repeat: no-repeat;
-        border: none;
-        color: #fff;
-        height: 35px;
-        background-size: 100% 100%;
-        text-align: center;
-        font-weight: bold;
-        font-size: 0.9em;
-    }
-
-    .collections-thumbnails {
-        text-align: center;
-    }
-    
-    .thumbnail-column {
-        float: left;
-        width: 100%;
-        margin-bottom: 130px;
-        margin-left: 33px;
-    }
-    
-    .container-thumbnails {
-        border-top: solid 3px #000;
-        border-bottom: solid 3px #000;
-        padding: 40px;
-        background-color: #f5f5f5;
-        margin-bottom: 5px;
-    }
-    
-    .thumbnails {
-        margin-bottom: 50px;
-    }
-    
-    .thumbnail-poster-text {
-        font-size: 0.7em;
-    }
-    
     .title-thumbnails {
-        font-size: 1.6em;
-        font-weight: bold;
-        font-style: italic;
         text-align: center;
-    }
-    
-    .thumbnail-row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-    
-    .thumbnail-row {
-        margin-top:35px;
-        width: 100%;
-    }
-    
-    .thumbnail-content-column {
-        float: left;
-        width: 82%;
-    }
-      
-    .thumbnail-content:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-    
-    .thumbnail-height-max {
-        height: 155px;
-    }
-    
-    .thumbnail-content-description {
-        height: 155px;
-        position: relative;
+        padding: 0px 80px;
     }
 
-    .content-description {
-        margin-top: 20px;
-        font-size: 11px;
+    .thumbnail-poster-text {
+        font-size: 1.3em;
+    }
+
+    .container-thumbnails {
+        padding: 40px 40px 40px 15px;
+    }
+
+    .container-copyright-footer {
+        background-image: url('../assets-mobile/Layer 9.png');
+        background-size: 100% 187px;
+        background-position-y: 0px;
+        background-repeat: no-repeat;
+        height: 187px;
+    }
+
+    div.form-orange-background {
+        margin-top: 71px;
+        height: 1990px;
+        background-size: 2875px;
+    }
+
+    div.container-title-bundle {
+        width: 77%;
+    }
+
+    p.title-bundle {
+        font-size: 3em;
+        line-height: 58px;
+    }
+
+    p.title-bundle-sub {
+        font-size: 1.8em;
+    }
+
+    .container-offers {
+        margin-top: 10px;
+    }
+
+    .column-right {
+        width: 65%;
+        margin-left: 76px;
+        position: absolute;
+        top: 234px;
+    }
+
+    div.container-chain {
+        top: 1016px;
+    }
+
+    div.form-left-panel {
+        top: 1150px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+
+    * {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
         padding: 0;
     }
     
-    .thumbnail-row:last-child {
-        margin-bottom: 50px;
+    body {
+        overflow-x: hidden;
+    }
+
+    img.img-rc-logo {
+        left: 92%;
+        width: 141px;
+    }
+
+    .column-left {
+        padding-left: 68px;
+    }
+
+    .thmb-moving-labor {
+        margin-left: 68px;
+    }
+
+    div.container-chain {
+        margin-left: 63px;
+    }
+
+    .container-thumbnails {
+        padding: 40px 40px 40px 9px;
+    }
+
+    .title-thumbnails {
+        text-align: center;
+        margin-left: 29px;
+    }
+
+    .thumbnail-poster-text {
+        font-size: 1.4em;
+    }
+
+}
+
+@media only screen and (max-width: 601px) {
+    
+
+    * {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
+        padding: 0;
     }
     
-    .container-is-link {
+    body {
+        overflow-x: hidden;
+    }
+
+    .container-logo {
         position: absolute;
-        bottom: 60px;
-        left: 62px;
-        
+    }
+       
+    img.img-rc-logo {
+        left: 65%;
+        width: 100%;
     }
     
-    .is-link {
-        color: #AD0101;
-        text-decoration: none;
-        font-weight: normal;
-        font-size: 0.9em;
+    .container-btn-sales {
+        right: -61px;
     }
+}
 
-    .container-text-coffee-break {
-        text-align: center;
-    }
-
-    .text-coffee-break {
-        font-size: 12px;
-    }
-
-    .container-btn-schedule {
-        text-align: center;
+@media only screen and (max-width: 601px) {
+    * {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
+        padding: 0;
     }
     
-    .btn-schedule {
-        background-color:#AD0101; 
-        font-weight:600; 
-        border-radius:5px; 
-        color:#fff; 
-        background-size: 100% 100%; 
-        background-repeat:no-reapeat; 
-        padding: 15px 25px; 
-        border:none; 
-        height:35px; 
-        line-height:0px; 
-        cursor:pointer; 
-        border:solid 3px #000
+    body {
+        overflow-x: hidden;
+    }
+
+    .container-btn-sales {
+        right: -25px;
+    }
+
+    img.img-rc-logo {
+        left: 44%;
+        width: 100%;
+    }
+
+    p.title-bundle {
+        font-size: 2.2em;
+        line-height: 58px;
+    }
+
+    p.title-bundle-sub {
+        font-size: 1.5em;
+    }
+
+    .column-left {
+        padding-left: 49px;
+    }
+
+    .column-right {
+        margin-left: 48px;
+    }
+
+    .thmb-moving-labor {
+        margin-left: 32px;
+    }
+
+    div.container-chain {
+        margin-left: 50px;
+    }
+
+    .card-offer-starbucks-mug {
+        background-size: 55% 90%;
+        left: 65px;
+    }
+
+    .thumbnail-poster-text {
+        font-size: 1em;
+    }
+
+    .collections-thumbnails {
+        margin-left: 0;
+    }
+
+    .thumbnail-height-max {
+        height: 300px;
+        margin-left: 16px;
+    }
+
+    .thumbnail-height-max {
+        height: 300px;
+        margin-left: 16px;
+    }
+
+    .thumbnail-content-description {
+        margin-left: 31px;
     }
 
     .container-terms-and-conditions {
-        padding: 49px 27px;
-        border-top: solid 3px #000;
-        background-color: rgb(180, 220, 233);
-        font-size: 0.8em;
+        padding: 58px 45px;
+        font-size: 1em;
+        line-height: 29px;
+    }
+}
+
+@media only screen and (max-width: 421px) {
+    * {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
+        padding: 0;
     }
     
-    a:hover, a:visited, a:link, a:active {
-        text-decoration: none;
+    body {
+        overflow-x: hidden;
     }
-} */
+
+    img.img-rc-logo {
+        left: 17%;
+    }
+
+    .container-btn-sales {
+        right: 20px;
+    }
+
+    p.title-bundle {
+        font-size: 1.8em;
+        line-height: 40px;
+    }
+
+    p.title-bundle-sub {
+        font-size: 1.3em;
+    }
+
+    .column-left {
+        padding-left: 33px;
+    }
+
+    .column-right {
+        width: 67%;
+        margin-left: 32px;
+        top: 203px;
+    }
+
+    div.board-schedule-a-demo {
+        padding-left: 33px;
+    }
+
+    .thmb-moving-labor {
+        margin-left: 4px;
+    }
+
+    div.container-chain {
+        margin-left: 42px;
+    }
+
+    .card-offer-1 {
+        height: 195px;
+        background-size: 90% 100%;
+    }
+
+    .card-offer-2 {
+        height: 180px;
+        background-size: 90% 100%;
+    }
+
+    .card-offer-starbucks-mug {
+        background-size: 60% 83%;
+        left: 53px;
+    }
+
+    .thumbnail-height-max {
+        height: 233px;
+        margin-left: 13px;
+    }
+
+    .title-thumbnails {
+        text-align: center;
+    }
+
+    .thumbnail-poster-text {
+        font-size: 22px;
+    }
+
+    .container-text-coffee-break {
+        margin-left: 11%;
+    }
+
+    .container-btn-schedule {
+        margin-left: 14%;
+    }
+
+}
+    
+
+@media only screen and (max-width: 360px) {
+    * {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+
+    img.img-rc-logo {
+        left: -8%;
+    }
+
+    .container-btn-sales {
+        right: 61px;
+    }
+
+    p.title-bundle-sub {
+        font-size: 1.2em;
+    }
+
+    .column-left {
+        padding-left: 11px;
+    }
+
+    p.title-bundle-sub {
+        font-size: 1.2em;
+    }
+
+    .column-right {
+        width: 72%;
+        margin-left: 10px;
+        top: 203px;
+    }
+
+    .thmb-moving-labor {
+        margin-left: 1px;
+    }
+
+    div.container-chain {
+        top: 990px;
+        margin-left: 11px;
+        background-size: 92% 196px;
+    }
+
+    div.text-display-landing {
+        padding-right: 7px;
+        font-size: 1.4em;
+    }
+
+    .text-switch-to {
+        font-size: 0.8em;
+    }
+
+    .container-offer-list {
+        font-size: 0.7em;
+    }
+
+    .card-offer-1 {
+        height: 170px;
+        background-size: 97% 100%;
+    }
+
+    .card-offer-2 {
+        height: 200px;
+        background-size: 97% 100%;
+    }
+
+    .card-offer-starbucks-mug {
+        background-size: 69% 83%;
+        left: 43px;
+    }
+
+    .container-thumbnails {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .collections-thumbnails {
+        margin-left: -36px;
+    }
+
+    .thumbnail-height-max {
+        height: 245px;
+        margin-left: 13px;
+    }
+
+    .container-btn-schedule {
+        margin-left: -1%;
+    }
+
+}

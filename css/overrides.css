@@ -71,6 +71,14 @@ div.offers-offer2 {
     bottom: -7px;
 }
 
+.card-offer-1 {
+    display: none;
+}
+
+.card-offer-2 {
+    display: none;
+}
+
 div.form-left-panel {
     color: #fff;
 }
@@ -236,6 +244,7 @@ div.board-schedule-a-demo {
     color: #AD0101;
     text-decoration: none;
     font-weight: 600;
+    cursor: pointer;
     
 }
 
