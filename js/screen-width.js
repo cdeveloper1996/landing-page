@@ -10,4 +10,4 @@ function getCurrentWidth() {
 }
 
 window.addEventListener("resize", getCurrentWidth)
-getCurrentWidth();
+// getCurrentWidth();
