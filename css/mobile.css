@@ -727,7 +727,170 @@
     }
 }
 
-@media only screen and (max-width: 690px) {
+@media only screen and (max-width: 880px) {
+    * {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+
+    img.img-rc-logo {
+        position: relative;
+        left: 115%;
+        width: 210px;
+    }
+
+    .container-btn-sales {
+        display: inline;
+        width: 100%;
+        position: relative;
+        right: 28px;
+        top: 50px;
+    }
+
+    .thmb-moving-labor {
+        height: 294px;
+        margin-left: 83px;
+        background-size: 461px 290px;
+    }
+
+    .column-left {
+        padding-left: 100px;
+    }
+
+    .column-right {
+        width: 70%;
+        margin-left: 90px;
+    }
+    
+    .thumbnail-height-max {
+        height: 430px;
+    }
+    
+    
+
+}
+
+@media only screen and (max-width: 749px) {
+    * {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+
+    .thmb-moving-labor {
+        height: 294px;
+        margin-left: 80px;
+        background-size: 379px 265px;
+    }
+
+    p.title-bundle {
+        font-size: 2.2em;
+    }
+
+    p.title-bundle-sub {
+        font-size: 1.3em;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    img.img-rc-logo {
+        position: relative;
+        left: 76%;
+        width: 212px;
+    }
+
+    .container-btn-sales {
+        display: inline;
+        width: 100%;
+        position: relative;
+        right: 104px;
+        top: 50px;
+    }
+
+    .column-right {
+        width: 70%;
+        margin-left: 72px;
+    }
+
+    .column-left {
+        padding-left: 76px;
+    }
+
+    .card-offer-starbucks-mug {
+        height: 380px;
+        background-size: 57% 92%;
+        left: 110px;
+        background-image: url('../assets-mobile/Vector Smart Object11.png');
+        width: 100%;
+        background-repeat: no-repeat;
+        left: 90px;
+        position: relative;
+    }
+
+    div.container-chain {
+        background-image: url('../assets-mobile/chain copy.png');
+        width: 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        height: 133px;
+        top: 1075px;
+        background-size: 78% 197px;
+        background-position-y: -51px;
+        margin-left: 80px;
+    }
+
+}
+
+@media only screen and  (max-width: 736px) {
+    * {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+
+    img.img-rc-logo {
+        position: relative;
+        left: 80%;
+        width: 200px;
+    }
+
+    .container-btn-sales {
+        display: inline;
+        width: 100%;
+        position: relative;
+        right: 87px;
+        top: 50px;
+    }
+
+    button.btn-sales {
+        height: 30px;
+        line-height: 10px;
+        padding: 0px 20px;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        width: 276px;
+        font-size: 1em;
+    }
+    
+}
+
+@media only screen and (max-width: 691px) {
     * {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         margin: 0;
