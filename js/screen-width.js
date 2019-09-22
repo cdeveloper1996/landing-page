@@ -9,5 +9,5 @@ function getCurrentWidth() {
     myDOM.appendChild(appendDOM);
 }
 
-window.addEventListener("resize", getCurrentWidth)
+// window.addEventListener("resize", getCurrentWidth);
 // getCurrentWidth();
